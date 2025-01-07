@@ -275,3 +275,5 @@ Welcome to join the ThinkRAG open source project, and together create AI product
 # License
 
 ThinkRAG uses the [MIT License](LICENSE).
+
+Testing my fork setup
