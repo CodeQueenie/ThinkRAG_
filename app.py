@@ -19,7 +19,8 @@ if __name__ == '__main__':
         menu_items=None,
     )
 
-    st.logo("frontend/images/ThinkRAG_Logo.png")
+    # Corrected logo display
+    st.image("frontend/images/ThinkRAG_Logo.png", use_column_width=True)
 
     init_state()
 
