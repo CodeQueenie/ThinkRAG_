@@ -75,7 +75,7 @@ ThinkRAG supports a wide range of models through various LLM providers integrate
 ### Step 1: Clone the Repository
 	git clone https://github.com/CodeQueenie/ThinkRAG_.git
 
-#### Locate Directory
+#### Change Directory
 	cd ThinkRAG_
 
 
@@ -89,7 +89,7 @@ ThinkRAG supports a wide range of models through various LLM providers integrate
 	source venv/bin/activate
 
 ### Step 3: Install Dependencies
-	python -m pip install --upgrade pip setuptools wheel pip install -r requirements.txt
+	python -m pip install --upgrade pip setuptools wheel && pip install -r requirements.txt
 
 
 ### Step 4: Install and Configure Ollama
