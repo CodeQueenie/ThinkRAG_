@@ -83,8 +83,10 @@ ThinkRAG supports a wide range of models through various LLM providers integrate
 	python -m venv venv
 
 ### Activate the virtual environment:
+
 #### Windows:
 	venv\Scripts\activate
+
 #### macOS/Linux:
 	source venv/bin/activate
 

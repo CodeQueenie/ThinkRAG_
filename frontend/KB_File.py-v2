@@ -4,14 +4,10 @@ from datetime import datetime
 import pandas as pd
 import streamlit as st
 from server.utils.file import save_uploaded_file, get_save_dir
-from server.stores.strage_context import STORAGE_CONTEXT
 
 def process_file(file_path):
-    """Process and index the file"""
-    # Placeholder for the actual file processing logic
-    # For example, you can add code to read the PDF and index its content
-    logging.info(f"Processing file: {file_path}")
-    # Add your file processing logic here
+    """Placeholder for the actual file processing logic"""
+    pass
 
 def bulk_upload(parent_folder):
     """Function to handle bulk upload of files from a parent folder and its subdirectories"""
@@ -27,7 +23,7 @@ def bulk_upload(parent_folder):
             if file.endswith(".pdf"):
                 file_path = os.path.join(root, file)
                 try:
-                    process_file(file_path)  # Process and index the file
+                    process_file(file_path)  # Assuming this function processes and indexes the file
                     status_report.append({
                         "file_name": file,
                         "file_type": "PDF",

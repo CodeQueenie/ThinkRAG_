@@ -4,7 +4,6 @@ from datetime import datetime
 import pandas as pd
 import streamlit as st
 from server.utils.file import save_uploaded_file, get_save_dir
-from server.stores.strage_context import STORAGE_CONTEXT
 
 def process_file(file_path):
     """Process and index the file"""
